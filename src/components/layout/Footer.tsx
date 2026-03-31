@@ -73,6 +73,14 @@ export function Footer() {
               <p>Ngong Road, Nairobi, Kenya</p>
               <p className="pt-2">
                 <a
+                  href="tel:+254725150497"
+                  className="hover:text-gold transition-colors"
+                >
+                  +254(0) 725 150 497
+                </a>
+              </p>
+              <p>
+                <a
                   href="mailto:info@mugendilaw.co.ke"
                   className="hover:text-gold transition-colors"
                 >
