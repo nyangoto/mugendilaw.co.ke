@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Mail, MapPin } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 import { PageHero } from "@/components/ui/PageHero";
 import { ContactForm } from "@/components/contact/ContactForm";
 import { GoldDivider } from "@/components/ui/GoldDivider";
@@ -42,6 +42,15 @@ export default function ContactPage() {
                       Ngong Road<br />
                       Nairobi, Kenya
                     </address>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Phone size={15} className="text-gold mt-0.5 shrink-0" />
+                    <a
+                      href="tel:+254725150497"
+                      className="text-sm text-muted-foreground hover:text-gold transition-colors"
+                    >
+                      +254(0) 725 150 497
+                    </a>
                   </div>
                   <div className="flex items-start gap-3">
                     <Mail size={15} className="text-gold mt-0.5 shrink-0" />
