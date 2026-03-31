@@ -137,7 +137,7 @@ export function ContactForm() {
             type="tel"
             {...register("phone")}
             autoComplete="tel"
-            placeholder="+254 700 000 000"
+            placeholder="+254(0) 725 150 497"
             className="bg-surface border-gold/20 text-foreground placeholder:text-muted-foreground/40 focus-visible:ring-gold/40"
           />
           {errors.phone && (
